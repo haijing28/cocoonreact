@@ -1,0 +1,19 @@
+
+
+/*dotsdotsdots swiper*/
+
+#header .swiper-pagination-bullet {
+	width: 9px;
+	height: 9px;
+	border: 0px solid #fff;
+	background-color: #f35451;
+	opacity: 0.8;
+}
+
+#header .swiper-pagination-bullet-active {
+	background-color: #ff946c;
+}
+
+.img {
+	width: 100%
+}
