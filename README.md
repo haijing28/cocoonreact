@@ -36,11 +36,11 @@ clone
 > $ npm run build
 ```
 
-open `http://localhost:8080/' in browesers，
+open `http://localhost:8080/' in browersers，
 
 后台服务端口为 `3000`
 
-## 后台接口（jsonp请求）
+## 后台接口（jsonp request）
 
 
 ```
