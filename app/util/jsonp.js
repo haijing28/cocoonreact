@@ -1,15 +1,21 @@
 
+//** url ，data jsoncallback callback 数组
+
 ;(function () {
     /**
+
+
      * JSONP操作
-     * @param url : 请求的url
+     * @param url : 请求的url 
      * @param data : 发送数据
      * @param jsonpcallback : 服务器给出的JSONP端口的API名称
      * @param callback : 执行JSONP获取数据的回调函数
      */
     var jsonp = function (url, data, jsonpcallback, callback) {
+
+        //设置默认的接口（仅对于此处用到的url）
         var cbName = 'cb' + jsonp.count++;
-        var callbackName = 'window.jsonp.' + cbName;
+        var callbackName = 'window.jsonp.' + cbName
         window.jsonp[cbName] = function (jsonpData) {
             try {
                 callback(jsonpData);

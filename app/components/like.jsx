@@ -46,7 +46,7 @@ let Like = React.createClass({
 										</span>
 									</div>
 									<div className="like_price">
-										<span>¥{ item.price }</span>
+										<span> RMB { item.price }</span>
 										<div><a href={ item.more }> Similar </a></div>
 									</div>
 								</div>

@@ -7,14 +7,14 @@ body {
 
 html,
 body {
-    font-family: "Microsoft YaHei", arial, sans-serif;
+    font-family: "Avenir Next W01", "Avenir Next", "Avenir", "Calibri" , "Open Sans", sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #111;
     width: 100%;
-    background: #fff;
+    background: #f35451; /*#fff*/
 }
 
 input,
@@ -27,6 +27,7 @@ h2,
 h3 {
     margin: 0;
     padding: 0;
+   /* font-size: 12px;*/
 }
 
 img {
@@ -47,7 +48,7 @@ select {
 }
 a {
     text-decoration: none;
-    color: #099cd6;
+    color: #000;
 }
 
 p {
@@ -92,4 +93,4 @@ ul, li,  dl, dt, dd {
 
 .pf {
     position: fixed;
-}
+} /* position fixed*/

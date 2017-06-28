@@ -1,7 +1,7 @@
 
 #spike {
 	background-color: #ff946c;
-	margin-top: 5px;
+/*	margin-top: 5px;*/
 	padding: 5px;
 }
 
@@ -13,7 +13,7 @@
 	height: 22px;
 	float: left;
 	margin-top: 8px;
-	background: url("../images/jd-sprites.png") -84px -109px no-repeat;
+	/*background: url("../images/cc-sprites.png") -84px -109px no-repeat;*/
 	background-size: 200px 200px;
 }
 
@@ -22,45 +22,48 @@
     display: inline-block;
     float: left;
     font-size: 15px;
-    color: #ca1327;
+    font-weight: 500;
+    color: #fff;/*#5e027e;*/
     margin: 10px 6px 0 5px;
 }
 
 .spike_time {
 	display: inline-block;
-	font-size: 13px;
+	font-size: 14px;
+	 font-weight: 500;
 	float: left;
 	margin-top: 10px;
 }
 
 .spike_time span {
 	display: inline-block;
-	width: 18px;
-	height: 18px;
+	width: 22px;
+	height: 22px;
 	padding: auto;
 	text-align: center;
-	color: #fff;
-	background: #3d3d3d;
-	border-radius: 2px;
-	padding-right: 2px;
-	margin: 0 2px;
+	color: #5e027e;
+	background: #e8d9bf;
+	border-radius: 1px;
+	padding-right: 1px;
+	margin: 0 3px;
 }
 
 .spike_more {
-	font-size: 12px;
+	font-size: 14px;
 	margin-top: 10px;
+	font-weight: 500;
 }
 
 .spike_more span {
-	color: #666;
+	color: #424242;
 }
 
 .spike_more i {
 	display: inline-block;
-    width: 7px;
+    width: 10px;
     height: 12px;
-    margin: 2px 0 0 2px;
-    background: url("../images/jd-sprites.png") -186px -51px no-repeat;
+    margin: 5px 0 0 5px;
+    background: url("../images/cc-sprites.png") -188px -52px no-repeat;
     background-size: 200px 200px;
 }
 

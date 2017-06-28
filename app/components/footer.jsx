@@ -37,7 +37,7 @@ let footer = React.createClass({
 											<div className="footer_icon">
 												<img src={ footer.icon } alt=""/>
 											</div>
-											<span>{ footer.title }</span>
+											<span>{ footer.title } ©Cocoonsprout 2017</span>
 										</a>
 									</li>
 						})

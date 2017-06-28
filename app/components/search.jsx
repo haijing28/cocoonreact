@@ -45,8 +45,11 @@ let Search = React.createClass({
 				</div>
 
 				<div className="sub pa">
-				<span> Login </span>
+
+					<span>Sign up</span> 
+
 				</div>
+
 
 			</div>
 		);
